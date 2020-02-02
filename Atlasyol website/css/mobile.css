@@ -1,0 +1,121 @@
+@media (max-width : 1020px){
+    .sayfa{
+        width: 60%;
+    }
+    .menu li:nth-child(5) {
+
+        padding-right: 5px;
+      }
+    .menu li {
+        border: lightgray solid 1px;
+        float: left;
+        margin-top: 30x;
+        padding: 10px;
+        font-size: 13px;
+      }
+      .logo {
+        display: inline;
+        width: 200px;
+      }
+      .foto img {
+          width: 100%;
+          max-width: 100%;
+      }
+        .logo a img{
+        display: inline;
+          max-width: 100%;
+
+      }
+      .iletisim {
+        padding-left: 5px;
+        float: right;
+          width: 40%;
+          font-size: 13px;
+      }
+      .alt ul li p {
+        margin-top: 5px;
+        padding-left: 5px;
+        font-size: 14px;
+      }
+
+      
+}
+@media (max-width: 768px) {
+    .sayfa {
+     width: 60%;
+    }
+    .menu li {
+        border: lightgray solid 1px;
+        float: left;
+        margin-top: 30x;
+        padding: 10px;
+        font-size: 10px;
+      }
+      .alt ul li {
+        padding-left: 6px;
+        float: left;
+        width: 30%;
+        padding-bottom: 100px;
+      }
+      .paragrafb {
+        float: left;
+        padding-left: 20px;
+        font-weight: 700;
+        font-size: 10px;
+      }
+      .iletisim {
+        float: right;
+          width: 40%;
+          font-size: 10px;
+      }
+      .logo {
+        padding-left: 5px;
+        display: inline;
+        width: 200px;
+      }
+      .logo a img{
+        display: inline;
+          width: 100%;
+          max-width: 100%;
+
+      }
+      
+}
+@media (max-width: 480px){
+
+  .sayfa{
+    width: 60%;
+  }
+  .menu {
+    display: none;
+  }
+  .logo {
+    display: inline;
+    width: 200px;
+  }
+  .logo a img{
+    display: inline;
+    width: 100%;
+      max-width: 100%;
+ }
+ .iletisim {
+        float: right;
+          width: 100%;
+          font-size: 10px;
+ 
+        }
+  .iletisim p {
+    display: inline;
+  }
+.diller{
+  padding-top: 0px;
+}
+.paragrafb {
+  padding-left: 20px;
+}
+.alt ul li p {
+  margin-top: 5px;
+  padding-left: 5px;
+  font-size: 12px;
+}
+}

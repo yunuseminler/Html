@@ -1,0 +1,89 @@
+@media (max-width: 1020px) {
+  .site {
+    width: 768px;
+  }
+
+  .menu li {
+    margin-left: 5px;
+  }
+
+  .menu li a {
+    padding: 10px 5px;
+  }
+
+  .urunler .item {
+    width: 186px;
+    height: 186px;
+    margin-left: 8px;
+  }
+
+  .haber {
+    width: 49%;
+  }
+
+  .haber .yazi {
+    width: calc(100% - 120px - 10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .site {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .ust {
+  }
+
+  .menu ul {
+    display: none;
+    width: 200px;
+    height: 100%;
+    background-color: #999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-right: 10px;
+    z-index: 9;
+  }
+
+  .menu ul li {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .menu ul li a {
+    display: block;
+    color: white;
+  }
+
+  .mobile-toggle {
+    width: 30px;
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-right: 20px;
+  }
+
+  .mobile-toggle span {
+    display: block;
+    height: 3px;
+    margin-top: 4px;
+    background-color: black;
+    border-radius: 2px;
+  }
+
+  .urunler .item {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .haber {
+    width: 100%;
+  }
+}

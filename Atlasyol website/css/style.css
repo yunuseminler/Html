@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+body {
+  font-family: "Tahoma";
+  font-size: 16px;
+}
+
+.clear {
+  clear: both;
+}
+body {
+  background-image: url(../img/body.png);
+  background-repeat: repeat-x;
+}
+
+.sayfa {
+  
+  width: 945px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  float: left;
+  padding-top: 40px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.iletisim {
+  margin: 10px;
+  padding-top: 50px;
+  float: right;
+}
+.kalin{
+font-weight: 700;
+}
+.diller{
+  margin-left: 6px;
+  padding-top: 25px;
+  float: right;
+  padding-bottom: 10px;
+}
+.menu li:nth-child(5) {
+
+  padding-right: 335px;
+}
+
+.menu li {
+  float: right;
+  border: lightgray solid 1px;
+  float: left;
+  margin-top: 30x;
+  padding: 10px;
+
+}
+.foto{
+  margin-top: 30px;
+}
+.ortayazi{
+  margin-top: 10px;
+  text-align: center;
+}
+.alt ul li {
+  padding-left: 6px;
+  float: left;
+  width: 294px;
+  padding-bottom: 100px;
+}
+.alt ul {
+  margin-top: 100px;
+}
+.sola {
+  float: left;
+}
+.paragrafb {
+  float: left;
+  padding-left: 20px;
+  font-weight: 700;
+}
