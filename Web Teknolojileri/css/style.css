@@ -1,1 +1,55 @@
-slakdakl
+body {
+    background-image: url("../images/back2.png");
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    animation: animate 2s 1;
+    margin-bottom: 0;
+    color:rgb(228, 228, 228);
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    color: rgb(25, 25, 25);
+}
+@keyframes animate {
+0%{
+    letter-spacing: 1px;
+}
+50%{
+    letter-spacing: 25px;
+}
+100%{
+    letter-spacing: 1px;
+}
+}
+.banner{
+    height: 650px;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.top {
+    background-color: rgb(25, 25, 25);
+}
+span a{
+    margin-top: 3em;
+}
+.opacity {
+    animation: opacity 6s 1;
+}
+.banner .container{
+    padding-top: 4em;
+}
+.banner .container h2{
+    animation: opacity 3s 1;
+}
+@keyframes opacity{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
