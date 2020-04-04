@@ -2,15 +2,16 @@ body {
     background-image: url("../images/back2.png");
 }
 h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 5rem;
+    font-family: 'Special Elite', cursive;
+    font-size: 4rem;
     animation: animate 2s 1;
     margin-bottom: 0;
+    padding-top: 10px;
     color:rgb(228, 228, 228);
 }
 h2{
-    font-family: 'Dancing Script', cursive;
-    font-size: 4rem;
+    font-family: 'Special Elite', cursive;
+    font-size: 3rem;
     color: rgb(25, 25, 25);
 }
 @keyframes animate {
@@ -37,13 +38,17 @@ span a{
     margin-top: 3em;
 }
 .opacity {
-    animation: opacity 6s 1;
+    animation: opacity 4s 1;
 }
 .banner .container{
     padding-top: 4em;
 }
-.banner .container h2{
-    animation: opacity 3s 1;
+.animate{
+    animation: up 2s steps(50);
+}
+.animate1 {
+    animation-delay: 2s;
+    animation: up 2s steps(50);
 }
 @keyframes opacity{
     from{
@@ -51,5 +56,14 @@ span a{
     }
     to{
         opacity: 1;
+    }
+}
+@keyframes up {
+    0%{
+        opacity: 0;
+        padding-top: 50px;
+    }
+    100%{
+        padding-top: 0px;
     }
 }

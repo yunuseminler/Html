@@ -1,3 +1,25 @@
 body{
     background-image: url("../images/back4.png");
 }
+h1 {
+    padding-top: 10px;
+    font-family: 'Special Elite', cursive;
+    font-size: 4rem;
+    animation: animate 2s 1;
+    margin-bottom: 0;
+    color:rgb(228, 228, 228);
+}
+.top {
+    background-color: rgb(25, 25, 25);
+}
+@keyframes animate {
+0%{
+    letter-spacing: 1px;
+}
+50%{
+    letter-spacing: 25px;
+}
+100%{
+    letter-spacing: 1px;
+}
+}
