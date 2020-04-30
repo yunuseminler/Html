@@ -1,5 +1,6 @@
 body {
-    background-image: url("../images/back2.png");
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
 }
 h1 {
     font-family: 'Special Elite', cursive;
@@ -25,14 +26,9 @@ h2{
     letter-spacing: 1px;
 }
 }
-.banner{
-    height: 650px;
-    background-image: url("../images/banner.jpg");
-    background-size: cover;
-    background-position: center;
-}
 .top {
     background-color: rgb(25, 25, 25);
+    height: 10%;
 }
 span a{
     margin-top: 3em;

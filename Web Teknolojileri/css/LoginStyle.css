@@ -55,3 +55,14 @@ button:hover{
     box-shadow: 5px 9px 18px grey;
 
 }
+@keyframes opacity{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.back {
+    animation: opacity 3s 1;
+}
