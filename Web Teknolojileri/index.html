@@ -1,54 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/script.js"></script>
     <title>Yunus Emre Eminler</title>
-</head>
-<body>
-        <section class="top">
-            <div class="container">
-                <div class="col-12 text-center">
-                    <h1> Hoşgeldiniz</h1>
-                </div>
-            </div>    
-        </section>
-        <section class="banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6 col-md-4 text-right">
-                        <a href="html/özgeçmiş.html" class="btn btn-primary btnanimateleft opacity">Özgeçmiş</a>
-                    </div>
-                    <div class="col-6 col-md-4 text-center">
-                        <h2 class="animate">Yunus Emre</h2>
-                    </div>
-                    <div class="col-6 col-md-4 text-left">
-                        <a href="html/Şehrim.html" class="btn btn-success opacity">Şehrim</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6 col-md-4 text-right">
-                        <span><a href="" class="btn btn-warning btnanimateleft opacity">Mirasımız</a></span> 
-                    </div>
-                    <div class="col-6 col-md-4 text-center">
-                        <h2 class="animate1">Eminler</h2>
-                    </div>
-                    <div class="col-6 col-md-4 text-left">
-                        <span><a href="html/iletişim.html" class="btn btn-info opacity">İletişim</a></span>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6 col-md-6 text-right">
-                        <span><a href="" class="btn btn-danger opacity">Hakkımda</a></span>
-                    </div>
-                    <div class="col-6 
-                    col-md-6 text-left">
-                        <span><a href="html/login.html" class="btn btn-primary opacity">Giriş Yap</a></span>
-                    </div>
-                </div>
-            </div>
-        </section>
-</body>
+  </head>
+  <body>
+    <section class="top">
+      <div class="logo">
+        <a href="">Yunus Emre Eminler</a>
+      </div>
+      <div class="hamburger">
+        <button onclick="menu(true)">
+          <img src="https://img.icons8.com/android/24/000000/menu.png" />
+        </button>
+      </div>
+      <div class="menu">
+        <div class="closeIcon">
+          <button onclick="menu(false)">
+            <img
+              src="https://img.icons8.com/material-outlined/24/000000/close-window.png"
+            />
+          </button>
+        </div>
+        <ul class="list">
+          <li class="listItem">
+            <a class="itemLink" href="html/özgeçmiş.html">Özgeçmiş</a>
+          </li>
+          <li class="listItem">
+            <a class="itemLink" href="html/mirasımız.html">Mirasımız</a>
+          </li>
+          <li class="listItem">
+            <a class="itemLink" href="html/Şehrim.html">Şehrim</a>
+          </li>
+          <li class="listItem">
+            <a class="itemLink" href="html/iletişim.html">İletişim</a>
+          </li>
+          <li class="listItem">
+            <a class="itemLink" href="html/Login.html">Giriş yap</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="back">
+      <button onclick="menu(false)"></button>
+    </div>
+    <div class="middle">
+      <div class="left">
+        <img src="images/profil.png">
+      </div>
+      <div class="right">
+        <h2>Yunus Emre Eminler Hakkında</h2>
+        <p>Merhaba benim adım Yunus Emre Eminler. 19 yaşındayım. Sakarya üniversitesi Bilgisayar Mühendisliği bölümünün 1. sınıf öğrencisiyim. Hobi olarak arduino ile ilgileniyorum. Genel olarak her spora ilgiliyim. Koşu sporunu etkin olarak yapıyorum ve yarışmalara katılıyorum. Koşu yarışları , Kamplar , Yazılım kampları , Seyahat etmek sevdiğim etkinlikler arasından bazılarıdır. </p>
+      </div>
+    </div>
+  </body>
 </html>

@@ -14,7 +14,7 @@ body {
     justify-content: center;
     animation: opacity 3s 1;
 }
-button{
+.button{
     border: 1px solid grey;
     padding: 10px;
     margin-left: 10px;
@@ -113,4 +113,8 @@ select{
     display: flex;
     padding-top: 0px;
     padding-bottom: 10px;
+}
+.error{
+    color: red;
+    font-size: 10px;
 }

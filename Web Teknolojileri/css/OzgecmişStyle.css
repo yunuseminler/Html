@@ -1,16 +1,46 @@
 body{
     background-image: url("../images/back4.png");
+    margin: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+a:hover{
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+.site{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 h1 {
+    width: 300px;
+    margin: 0px;
     padding-top: 10px;
     font-family: 'Special Elite', cursive;
     font-size: 4rem;
     animation: animate 2s 1;
-    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
     color:rgb(228, 228, 228);
 }
 .top {
     background-color: rgb(25, 25, 25);
+}
+table{
+    margin-top: 50px;
+    border: 1px solid gray;
+    width: 500px;
+    animation: opacity 3s 1;
+}
+th{
+    font-size: 30px;
+}
+td{
+    padding: 20px 30px;
 }
 @keyframes animate {
 0%{
@@ -22,4 +52,12 @@ h1 {
 100%{
     letter-spacing: 1px;
 }
+}
+@keyframes opacity{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }

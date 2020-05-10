@@ -5,34 +5,43 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/iletişim.css">
-    <title>Document</title>
+    <script src="../js/iletişim.js"></script>
+    <title>İletişim Sayfası</title>
 </head>
 <body>
     <div class="container">
         <div class="back">
-            <form action="../php/form.php" method="POST">
+            <form name="contactForm" action="../php/form.php" method="POST"  >
                 <ul>
                     <li>
                         <p>Boş alan bırakmayınız</p>
                     </li>
                     <li>
-                        <input type="text" placeholder="Adınız" name="ad">
+                        <input type="text" placeholder="Adınız" id="ad" name="ad">
+                        <br>
+                        <span id="AdHata" class="error"></span>
                     </li>
                     <li>
-                        <input type="text" placeholder="Soyadınız" name="soyad">
+                        <input type="text" placeholder="Soyadınız" id="soyad" name="soyad">
+                        <br>
+                        <span id="SoyadHata" class="error"></span>
                     </li>
                     <li>
-                        <input type="text" placeholder="Telefon Numarası" name="phone">
+                        <input type="text" placeholder="Telefon Numarası" “text” id="telefon" onkeypress="return isNumberKey(event)" name="telefon">
+                        <br>
+                        <span id="TelefonHata" class="error"></span>
                     </li>
                     <li>
-                        <input type="email" placeholder="Mail adresinizi giriniz" name="email">    
+                        <input type="email" placeholder="Mail adresinizi giriniz" id="email" name="email">
+                        <br>
+                        <span id="EmailHata" class="error"></span>    
                     </li>
                     <li>
                         <div class="cinsiyet">
                             <p>Cinsiyetiniz : </p>
                             <ul>
                                 
-                                <li><input type="radio" name="cinsiyet" value="Erkek"> Erkek</li>
+                                <li><input type="radio" name="cinsiyet" value="Erkek" checked> Erkek</li>
                                 <li><input type="radio" name="cinsiyet" value="Kadın"> Kadın</li>
                             </ul>
                         </div>
@@ -123,6 +132,8 @@
                             <option value="80">Osmaniye</option>
                             <option value="81">Düzce</option>
                         </select>
+                        <br>
+                        <span id="SehirHata" class="error"></span>
                     </li>
                     <li>
                         <div class="yorum">
@@ -138,8 +149,8 @@
                         <textarea placeholder="Eklemek istedikleriniz" name="extra"></textarea>
                     </li>
                     <li>
-                        <button type="reset">Temizle</button>
-                        <button type="submit">Gönder</button>
+                        <button type="reset" class="button">Temizle</button>
+                        <button type="submit" class="button" onclick="return kontrol();">Gönder</button>
                     </li>
                 </ul>
             </form>

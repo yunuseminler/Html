@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,23 +12,39 @@
 <body>
     <div class="container">
         <div class="back">
-            <form name="Login" action="../php/login.php" method="POST" >
+            <form action="login.php">
                 <ul>
                     <li>
-                        <h1>Lütfen Giriş Yapınız</h1>
+                        <h2>
+                            <?php 
+                                $email = "sakarya.edu.tr";
+                                if ($_POST){
+                                    $sifre = $_POST["sifre"];
+                                    $mail = $_POST["email"];
+                                    $gelenMail = explode("@",$mail);
+                                if(!($gelenMail[1] == $email) || !(strlen($gelenMail[0]) == 10) ){
+                                    echo "Mail adresi yanlış";
+                                }
+                                else{
+                                    echo "Hoşgeldiniz ";
+                                    echo $gelenMail[0];
+                                }
+                                }
+                            ?>
+                        </h2>
                     </li>
                     <li>
                         <div class="logo">
                             <img src="../images/mail.png">
                         </div>
-                        <input type="email" id="email" name="email" placeholder="Mail adresinizi giriniz">
+                        <input type="email" id="email" placeholder="Mail adresinizi giriniz">
                         <span id="emailHata" class="error"></span>    
                     </li>
                     <li>    
                         <div class="logo">
                             <img src="../images/key.png">
                         </div>
-                        <input type="password" id="sifre" name="sifre" placeholder="Şifrenizi giriniz">
+                        <input type="password" id="sifre" placeholder="Şifrenizi giriniz">
                         <span id="sifreHata" class="error"></span>
                     </li>
                     <li>

@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 14px;
+    color: black;
+}
+.container{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+background-color: rgb(252, 252, 233);
+animation: opacity 3s 1;
+}
+.banner img{
+    max-width: 100%;
+}
+h1{
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+a{
+    padding:10px;
+    color: seagreen;
+    text-decoration: none;
+}
+a:hover{
+    background-color: black;
+}
+@keyframes opacity{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

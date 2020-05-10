@@ -10,7 +10,7 @@ body{
     height: 250px;
     width: 300px;
 }
-h1{
+h2{
     font-family: 'Josefin Sans', sans-serif; 
 }
 ul{
@@ -65,4 +65,9 @@ button:hover{
 }
 .back {
     animation: opacity 3s 1;
+}
+.error{
+    color: red;
+    font-size: 10px;
+    padding-left: 5px;
 }
