@@ -1,0 +1,421 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+figure, header, nav, section, article, aside, footer, figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+ul{
+    list-style: none;
+}
+
+p{
+    color: rgb(149, 149, 149);
+    font-weight: 300;
+}
+
+html,body{
+    font-family: 'Poppins' , sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+}
+
+header{
+    background-color: rgba(250, 250, 250, 0.1);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 80px;
+    z-index: 100;
+    
+}
+
+header .container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .container ul{
+    display: flex;
+    list-style: none;
+    margin-top: 0px;
+}
+
+header .container ul li{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+header .container ul li a{
+    padding: 10px;
+    font-size: 14px;
+}
+
+header .container ul li:first-child a{
+    color : rgb(254, 69, 24)
+}
+
+header .container ul li:last-child a{
+    background-color: rgb(254, 69, 24);
+}
+
+header .container ul li a:hover{
+    color: rgb(254, 69, 24);
+    transition: all .3s;
+}
+
+
+header .container ul li:last-child a:hover{
+    background-color: white;
+    transition: all .6s;
+    border-radius: 10px;
+}
+
+.logo{
+    font-size: 32px;
+}
+
+span{
+    color: rgb(254, 69, 24);
+}
+
+#bannerVideo{
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+.video-text{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(35, 45, 57, 0.8);
+}
+
+.video-text .text{
+    text-align: center;
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,50%);
+}
+.text h6{
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+.text h2{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 84px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.text a{
+    padding: 15px 20px;
+    background-color: rgb(254, 69, 24);
+    color: white;
+}
+
+.text a:hover{
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(254, 69, 24);
+    transition: all 0.6s;
+}
+
+.features{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mid-img{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mid{
+    width: 540px;
+    padding-left: 250px;
+}
+
+.features .features-bottom{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.features-sections{
+    width: 500px;
+}
+
+.features-sections li {
+    display: flex;
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+.right{
+    width: 300px;
+    margin-left: 25px;
+    font-weight: 300;
+}
+
+.right p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.right a{
+    color: rgb(254, 69, 24);
+}
+
+.fixed{
+    position: fixed;
+    background-color: white;
+    transition: all 0.6s;
+}
+
+.black{
+    color: black;
+}
+
+.back{
+    padding: 120px 0px;
+    background-image: url(../images/cta-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#motivation h2{
+    font-size: 40px;
+}
+
+#motivation h6{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.classes-bottom{
+    margin-top: 100px;
+    display: flex;
+}
+
+.training-left ul li a{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    font-size: 19px;
+    margin-bottom: 20px;
+    padding: 30px 20px;
+    font-weight: 500;
+}
+
+.training-left ul li a img{
+    padding-right: 10px;
+}
+
+.training-left ul li:last-child a{
+    text-align: center;
+    padding: 20px 50px;
+    background-color: rgb(254, 69, 24);
+    color: white;
+}
+
+.training-left ul li:last-child a:hover{
+    background-color: white;
+    transition: all .6s;
+    border-radius: 10px;
+    color: rgb(254, 69, 24);
+}
+
+.training-right{
+    margin-left: 30px;
+}
+
+.training-right img {
+    border-radius: 5px;
+    width: 700px;
+}
+
+.training-right p{
+    width: 700px;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.training-right h4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.training-right a{
+    color: white;
+    background-color: rgb(254, 69, 24);
+    padding: 10px 20px;
+    font-weight: 300;
+}
+
+.training-none{
+    display: none;
+}
+
+.click{
+    color: rgb(254, 69, 24) !important;
+    transition: all 0.6s;
+}
+
+.animation{
+    animation: opacity 2s 1;
+}
+
+@keyframes opacity{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.white{
+    color: white;
+}
+
+.times{
+    padding: 0px 0px 140px 0px;
+    background-image: url(../images/schedule-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.times .features{
+    padding-top: 140px;
+    padding-bottom: 80px;
+}
+
+.days ul {
+    display: flex;
+    justify-content: center;
+}
+
+.days ul li {
+    padding-right: 15px;
+    color:white;
+}
+
+.days ul li a{
+    font-size: 18px;
+    color: white;
+}
+.days ul li a:hover{
+    color: rgb(254, 69, 24);
+    transition: all 0.6s;
+}
+
+table{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #fff;
+    border-spacing: 2px;
+}
+
+table tbody tr td {
+    width: 25%;
+    border-right: 1px solid #fff;
+    height: 80px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    border-bottom: 1px solid white;
+}
+table tbody tr:last-child td{
+    border-bottom: 0px;
+}
+
+table tbody tr td:last-child{
+    border-right: 0px;
+}
+
+.trainers{
+    margin-top: 100px;
+}
+.trainers ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trainers ul li{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    padding: 40px;
+    margin-left: 20px;
+}
+
+.trainers ul li:first-child{
+    margin-left: 0px;
+}
+
+.trainers ul h5{
+    color: rgb(254, 69, 24);
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.trainers ul h3{
+    margin-bottom: 15px;
+}
+
+.logos{
+    margin-top: 10px;
+}
+
+.logos img{
+    width: 20px;
+    margin-left: 5px;
+}
+.logos img:first-child{
+    margin-left: 0px;
+}
+
