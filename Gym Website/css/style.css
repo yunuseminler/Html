@@ -139,13 +139,13 @@ span{
     padding: 15px 20px;
     background-color: rgb(254, 69, 24);
     color: white;
+    transition: all 0.6s ease-in;
 }
 
 .text a:hover{
     border-radius: 10px;
     background-color: white;
     color: rgb(254, 69, 24);
-    transition: all 0.6s;
 }
 
 .features{
@@ -341,6 +341,7 @@ span{
 }
 
 .days ul li a{
+    cursor: pointer;
     font-size: 18px;
     color: white;
 }

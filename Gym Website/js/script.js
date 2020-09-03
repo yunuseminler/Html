@@ -28,27 +28,23 @@ function remove(){
 }
 
 function trainingMenu(deger){
+    remove();
     if(deger==1){
-        remove();
         $('.first-training').addClass('animation');
         $('.first-training').removeClass('training-none');
         $('.training-left ul li:nth-child(1) a').addClass('click');
     }
     else if(deger==2){
-        remove();
         $('.second-training').addClass('animation');
         $('.second-training').removeClass('training-none');
         $('.training-left ul li:nth-child(2) a').addClass('click');
-
     }
     else if(deger==3){
-        remove();
         $('.third-training').addClass('animation');
         $('.third-training').removeClass('training-none');
         $('.training-left ul li:nth-child(3) a').addClass('click');
     }
     else if(deger==4){
-        remove();
         $('.fourth-training').addClass('animation');
         $('.fourth-training').removeClass('training-none');
         $('.training-left ul li:nth-child(4) a').addClass('click');
@@ -68,9 +64,8 @@ function reset(){
 }
 
 function days(day){
-
+    reset();
     if(day==1){
-        reset();
         var a = document.getElementsByClassName('monday');
         a[0].innerHTML = "11:00AM - 12:00AM";
         a[1].innerHTML = "2:00PM - 3:30PM";
@@ -78,28 +73,24 @@ function days(day){
 
     }
     else if(day==2){
-        reset();
         var a = document.getElementsByClassName('tuesday');
         a[0].innerHTML = "2:00PM - 3:30PM";
         a[1].innerHTML = "10:00AM - 11:30AM";
         $('.days ul li:nth-child(2) a').addClass('click');
     }
     else if(day==3){
-        reset();
         var a = document.getElementsByClassName('wednesday');
         a[0].innerHTML = "11:00AM - 12:00AM";
         a[1].innerHTML = "2:00PM - 3:30PM";
         $('.days ul li:nth-child(3) a').addClass('click');
     }
     else if(day==4){        
-        reset();
         var a = document.getElementsByClassName('thursday');
         a[0].innerHTML = "11:00AM - 12:00AM";
         a[1].innerHTML = "2:00PM - 3:30PM";
         $('.days ul li:nth-child(4) a').addClass('click');
     }
     else if(day==5){
-        reset();
         var a = document.getElementsByClassName('friday');
         a[0].innerHTML = "11:00AM - 12:00AM";
         a[1].innerHTML = "2:00PM - 3:30PM";
