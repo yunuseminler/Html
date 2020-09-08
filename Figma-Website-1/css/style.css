@@ -1,0 +1,110 @@
+button{
+    outline: none;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 100%;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.right{
+    flex: 3;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:2;
+}
+
+.logo{
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.mid{
+    flex: 8;
+}
+
+.join{
+    background-color: rgb(63, 131, 229);
+    color: white;
+    padding: 10px 35px;
+    border: 0px;
+    border-radius: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.nav ul{
+    margin-top: 48px;
+    margin-bottom: 70px;
+}
+
+.nav ul li{
+    margin-bottom: 50px;
+}
+
+.nav ul li:last-child{
+    margin-bottom: 0px;
+}
+
+.nav ul li a{
+    cursor: pointer;
+}
+
+a img{
+    padding-right: 20px;
+}
+
+.upgrade{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.upgrade p{
+    margin-top: 33px;
+    width: 130px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #778DAD;
+    margin-bottom: 15px;
+}
+
+.upgrade-btn{
+    text-align: center;
+    padding: 10px 35px;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(63, 131, 229);
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.search img{
+    padding-top: 5px;
+}
+.search-input{
+    border: 0px;
+    padding: 10px;
+    outline: none;
+    width: 30%;
+}
+
+.mid{
+    padding-left: 30px;
+}
