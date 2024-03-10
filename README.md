@@ -1,2 +1,2 @@
 # Html
-Html ile yaptığım projeler
+Html ile yaptığım projeler.
